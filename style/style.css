@@ -16,6 +16,24 @@ nav{
     border: none;
 
 }
+.btn-primary:hover{
+    background-color: #ff4747;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+
+}
+.btn-primary:active{
+    background-color: #1f0a0a;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+
+}
 .nav-title{
     font-weight: 800;
     font-size: 45px;
@@ -33,15 +51,39 @@ nav ul li{
   font-variation-settings:
     "wdth" 100;
 }
+/* work flow */
+.work{
+    justify-content: space-between;
+    display: flex;
+    margin: 141px 159px;
+    text-align: left;
+}
+/* Header img */
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+}
 /* banner degin */
 .banner{
     text-align: center;
-    margin: 309px 267px;
+    height: 698px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+   
    
 }
 .banner-style{
     color: #252432;
     font-weight: 700;
-    font-size: 65px;
-    
+    font-size: 65px; 
+    margin:0;
+}
+
+.wc-mini-pic{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+
 }
