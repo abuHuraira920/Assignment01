@@ -14,6 +14,7 @@ nav{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    transition: background-color 1s, transform 0s;
 
 }
 .btn-primary:hover{
@@ -114,7 +115,6 @@ nav ul li{
 
 .user-items {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -133,4 +133,98 @@ nav ul li{
   color: #666;
   margin-top: 1px;
 }
+/* testimonial section */
+.main-card{
+   
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin:0px;
+    justify-content: center;
+}
+.testimonial-section{
+    background-color: #f5f7ff;
+    padding: 60px 20px;
+    text-align: center;
+    
+}
+.testimonial-heading {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #222;
+}
 
+.testimonial-card {
+  display: flex;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.testimonial-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+.testimonial-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+}
+
+.reviewer-details {
+  margin-left: 10px;
+}
+
+.reviewer-details strong {
+  font-size: 13px;
+  display: block;
+  color: #999;
+}
+
+.reviewer-details small {
+  font-size: 10px;
+  color: #999;
+}
+/* bouns item */
+.focus-items{
+    text-align: center;
+}
+.img-ready{
+    margin: 10px;
+}
+/* from get in touch */
+.conteiner-from{
+    display: flex;
+    padding: 130px 230px;
+    background-color: #e9e9ff;
+    gap: 200px;
+    justify-content: space-around;
+    
+}
+.conteiner{
+    font-size: 50px;
+}
+.contact-us input, .contact-us textarea{
+    border: none;
+    width: 400px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.get-in-btn{
+    width: 445px;
+}
