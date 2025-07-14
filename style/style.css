@@ -38,6 +38,7 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+    color: #4E47FF;
 }
 
 nav ul li{
@@ -227,4 +228,33 @@ nav ul li{
 }
 .get-in-btn{
     width: 445px;
+}
+/* footer Item */
+.footer-main{
+    text-align: center;
+    margin: 200px 250px;
+
+}
+.link-item{
+    border: none;
+    text-decoration: none;
+    color: #8987A1;
+    padding: 15px;
+    font-size: small;
+}
+.link-item:hover{
+    border: none;
+    text-decoration: none;
+    color: #0c0c0d;
+    padding: 15px;
+    font-size: small;
+
+}
+.last-elem{
+    color:#8987A1 ;
+}
+.web-name{
+    font-weight: 800;
+    font-size: 45px;
+    color: #4E47FF;
 }
