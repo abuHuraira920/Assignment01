@@ -1,4 +1,47 @@
-.upper-logo{
+/* nav style */
+
+nav{
     display: flex;
     justify-content: space-between;
+    margin: 0px 50px;
+    align-items: center;
+}
+/* button primary */
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li{
+    list-style: none;
+
+}
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* banner degin */
+.banner{
+    text-align: center;
+    margin: 309px 267px;
+   
+}
+.banner-style{
+    color: #252432;
+    font-weight: 700;
+    font-size: 65px;
+    
 }
